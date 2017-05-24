@@ -1,4 +1,21 @@
 <div class="jumbotron text-center">
     <h1>Meet The Medics</h1>
-    <h3>A Platform where Physicians, Industry and Universities can meet to discuss ideas and test new medicines</h3>
+    <h3>A Platform where the Industry and Universities can meet some intrested Physicians to share ideas looking to test or market medicines</h3>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="well">
+      <h2 class="text-center">Free Membership</h2>
+      <h4>Sign up for free and get an entry level access to view the community.</h4>
+      <br/>
+      <%= link_to "Sign up with Basic", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="well">
+      <h2 class="text-center">Premium Membership</h2>
+      <h4>Sign up for the premium account for £7/month and get full access to the community and see all contact information!</h4><br>
+      <%= link_to "Sign up with Pro", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+    </div>
+  </div>
 </div>
