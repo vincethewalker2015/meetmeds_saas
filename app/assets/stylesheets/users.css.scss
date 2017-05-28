@@ -1,8 +1,23 @@
+/* Avatar Sizeon (users/show)  */
+.user-show-avatar{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+/* Users index page styles on Visit the community Page (Users/index)*/
+.user-index-avatar {
+  border-radius: 50%;
+  
+}
+    
+
+
 .job-title-icon {
     display: inline-block;
     width: 30px;
     height: 30px;
-    border: 0.5px solid #2e6da4;
+    border: 2px solid #2e6da4;
     border-radius: 4px;
     background-color: #337ab7;
     color: white;
@@ -26,15 +41,8 @@
 
 .well.contact-info {
   background-color: #5cb85c;
-  border-color: #46b8da;
   border-radius: 6px;
   
-}
-
-.user-show-avatar {
-    border-radius: 50%;
-    border: 1px solid black;
-    
 }
 
 .name-font {
