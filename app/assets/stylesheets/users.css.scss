@@ -14,6 +14,7 @@
     color:#fff;
     background-color: #337ab7;
     border-color: #4cae4c;
+    border-radius: 6px;
 }
 
 .well.profile-block {
@@ -26,10 +27,24 @@
 .well.contact-info {
   background-color: #5cb85c;
   border-color: #46b8da;
+  border-radius: 6px;
+  
 }
 
 .user-show-avatar {
     border-radius: 50%;
     border: 1px solid black;
     
+}
+
+.name-font {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-color-style {
+   background: #fceabb; /* Old browsers */
+    background: -moz-linear-gradient(top, #fceabb 95%, #fccd4d 100%, #f8b500 100%, #fbdf93 100%, #fccd4d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fceabb 95%,#fccd4d 100%,#f8b500 100%,#fbdf93 100%,#fccd4d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fceabb 95%,#fccd4d 100%,#f8b500 100%,#fbdf93 100%,#fccd4d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fccd4d',GradientType=0 ); /* IE6-9 */
 }
