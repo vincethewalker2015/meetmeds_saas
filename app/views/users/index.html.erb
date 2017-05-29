@@ -1,8 +1,8 @@
 <div class="row">
   <div class="col-md-8 col-md-offset-2 text-center">
     <div class="well row form-color-style name-font">
-      <h1>Meet the Medics Community</h1>
-      <p class="about-font">Welcome to Meet the Medics community. Users must fill out a profile in order to be visible in this community.</p>
+      <h1>Meet the Medics</h1>
+      <p class="about-font">Welcome to Meet the Medics community. Users will need to create their profile in order to be visible in this community.</p>
     </div>
     </div>
   <div class="col-md-8 col-md-offset-2">
@@ -10,7 +10,7 @@
       <% @users.each do |user| %>
         <% if user.profile %>
         <li>
-          <div class="well row form-color-style name-font <%= cycle('white-bg', '') %>">
+          <div class="well row name-font <%= cycle('white-bg', 'form-color-style') %>">
             <div class="col-sm-4 text-center">
               <% if user.profile.avatar %>
                 <%= link_to user do %>
