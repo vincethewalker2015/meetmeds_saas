@@ -1,0 +1,13 @@
+<%= form_for(@user) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+  <!-- ... -->
+  
+  <%= form_for(@user, html: { class: "directUpload" }) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+  <!-- ... -->
+  
+  <%= form_for(@user, html: { class: 'directUpload', data: { 'form-data' => (@s3_direct_post.fields), 'url' => @s3_direct_post.url, 'host' => URI.parse(@s3_direct_post.url).host } }) do |f| %>
+  
+  

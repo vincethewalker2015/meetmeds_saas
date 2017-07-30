@@ -49,7 +49,7 @@ gem 'figaro', '1.0.0'
 gem 'paperclip', '4.2.1'
 
 # Use AWS to store Avatar Images for Heroku
-gem 'aws-sdk', '< 2.0'
+gem 'aws-sdk', '2.3.3'
 
 
 
