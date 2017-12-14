@@ -51,6 +51,9 @@ gem 'paperclip', '4.2.1'
 # Use AWS to store Avatar Images for Heroku
 gem 'aws-sdk', '2.3.3'
 
+# Use Fog as th ecloud storage library
+gem 'fog-aws'
+
 
 
 # Use ActiveModel has_secure_password

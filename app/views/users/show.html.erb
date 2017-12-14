@@ -1,12 +1,16 @@
 <div class="row">
   <div class="col-md-3 text-center">
+    <div class="well">
     <%= image_tag @user.profile.avatar.url, class: 'user-show-avatar' %>
+    </div>
   </div>
   <div class="col-md-6 name-font form-color-style">
-    <h1 class="text-center"><%= @user.profile.first_name %> <%= @user.profile.last_name %></h1>
+    <div class="well">
+    <h1 class="text-center"><%= @user.profile.first_name %> <%= @user.profile.last_name %><br /></h1>
     <h3><span class="job-title-icon"><%= job_title_icon %></span> <%= @user.profile.job_title %></h3>
+    </div>
     <div class="well profile-block profile-description">
-      <h3>Description</h3>
+      <h3 class="show-page-header">Description</h3>
       <%= @user.profile.description %>
     </div>
      <% if current_user.plan_id == 2 %>
@@ -16,5 +20,9 @@
         <%= @user.profile.contact_email %><br/>
       </div>
     <% end %>
+    <div class="well">
+      <%= link_to "Edit your profile", edit_user_profile_path(current_user) , class: 'btn btn-primary' %>
+      <%= link_to "Change your Password", edit_user_registration_path, class: 'btn btn-default-orange',  id: 'orange' %>
+    </div>
   </div>
 </div>

@@ -2,16 +2,29 @@
 .user-show-avatar{
   height: 140px;
   width: 140px;
-  border-radius: 50%;
+  border-radius: 5px;
   border: 1px solid black;
 }
 /* Users index page styles on Visit the community Page (Users/index)*/
-.user-index-avatar {
-  border-radius: 50%;
-  
-}
-    
 
+   /* This highlights users name in Navbar*/
+
+.pname {
+    color: #D4AF37;  
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* This collapses the margin from the top on certain h tags */
+.show-page-header{
+    margin-top: 0px;
+}
+
+/* Greys out the footer section */
+
+.me a{
+    color: #d3d3d3;
+}
 
 .job-title-icon {
     display: inline-block;
@@ -24,6 +37,15 @@
     text-align: center;
     
 }
+
+/* edit Button Colour outside of bootstrap range -used javascript for transition*/
+
+.btn-default-orange {
+    background:#FFA500;
+    color: #ffffff ;
+}
+
+/* Well effects */
 
 .well.profile-description{
     color:#fff;
