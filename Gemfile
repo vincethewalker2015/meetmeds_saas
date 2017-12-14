@@ -52,11 +52,7 @@ gem 'mini_magick', '4.7.0'
 # Use Fog for S3 Image upload
 gem 'fog'
 
-# Use AWS to store Avatar Images for Heroku
-gem 'aws-sdk', '2.3.3'
 
-# Use Fog as th ecloud storage library
-gem 'fog-aws'
 
 
 
