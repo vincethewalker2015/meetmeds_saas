@@ -12,9 +12,9 @@
         <li>
           <div class="well row name-font <%= cycle('white-bg', 'form-color-style') %>">
             <div class="col-sm-4 text-center">
-              <% if user.profile.avatar %>
+              <% if user.profile.picture %>
                 <%= link_to user do %>
-                  <%= image_tag user.profile.avatar.url(:thumb), class: 'user-index-avatar' %>
+                  <%= image_tag user.profile.picture.url(:thumb), class: 'user-index-avatar' %>
                 <% end %>
               <% end %>
             </div>

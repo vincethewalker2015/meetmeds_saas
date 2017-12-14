@@ -45,8 +45,12 @@ gem 'stripe', '1.16.1'
 # Use figaro to hide secret keys
 gem 'figaro', '1.0.0'
 
-# Use paperclip for image uploads
-gem 'paperclip', '4.2.1'
+# Use carrierwave for image uploads
+gem 'carrierwave', '1.1.0'
+gem 'mini_magick', '4.7.0'
+
+# Use Fog for S3 Image upload
+gem 'fog'
 
 # Use AWS to store Avatar Images for Heroku
 gem 'aws-sdk', '2.3.3'
