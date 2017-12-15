@@ -20,6 +20,7 @@
       <div class="well form-color-style">
         <h2 class="text-center">The Community</h2>
         <p>Visit the community to meet other Physicians, Brand Teams and R & D Specialists</p>
+        <br />
         <%= link_to "Visit the community", users_path, class: 'btn btn-default-orange btn-lg btn-block', id: 'orange' %>
       </div>
     </div>
@@ -36,6 +37,7 @@
       <div class="well form-color-style">
         <h2 class="text-center">Premium Membership</h2>
         <h4>Create a premium account with us for £7/month and gain full access to the community and see all contact information</h4>
+        <br />
         <%= link_to "Sign up for a premium membership", new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-success btn-lg btn-block' %>
       </div>
     </div>
