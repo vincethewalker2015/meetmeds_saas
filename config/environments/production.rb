@@ -78,5 +78,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   
   # config/environments/production.rb
-  config.action_mailer.delivery_method = :aws_sdk
+  # config.action_mailer.delivery_method = :aws_sdk
 end
