@@ -46,7 +46,7 @@ gem 'stripe', '1.16.1'
 gem 'figaro', '1.0.0'
 
 # Use carrierwave for image uploads
-gem 'carrierwave', '1.1.0'
+gem 'carrierwave', '1.3.2'
 gem 'mini_magick', '4.9.4'
 
 # Use Fog for S3 Image upload
